@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  fullstackormtemplatemain:
+    image: fullstackormtemplatemain
+    build:
+      context: .
+      dockerfile: ./Dockerfile
